@@ -44,9 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FuncOperationsTests\ActionOperationsTests.cs" />
     <Compile Include="FuncOperationsTests\ExpressionOperationsTests.cs" />
     <Compile Include="FuncOperationsTests\HasProperties.cs" />
     <Compile Include="FuncOperationsTests\ExtractValueFromInstanceTests.cs" />
+    <Compile Include="Functional\ActionOperations.cs" />
+    <Compile Include="Functional\Example.cs" />
     <Compile Include="Functional\ExpressionOperations.cs" />
     <Compile Include="Functional\FuncOperations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
