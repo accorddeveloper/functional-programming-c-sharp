@@ -26,7 +26,7 @@
         public TSomeTypeOnProperty ExtractValueFromInstance<TInstance, TSomeTypeOnProperty>(TInstance obj, Func<TInstance, TSomeTypeOnProperty> functionDefintion)
         {
             // All we have to do here is to invoke it on the instance passed through as the first argument.
-            return functionDefintion.Invoke(obj);
+            return functionDefintion(obj);
         }
     }
 }
